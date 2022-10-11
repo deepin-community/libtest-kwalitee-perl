@@ -1,0 +1,8 @@
+---
+Archive: CPAN
+Bug-Database: https://rt.cpan.org/Public/Dist/Display.html?Name=Test-Kwalitee
+Bug-Submit: bug-Test-Kwalitee@rt.cpan.org
+Contact: chromatic <chromatic@wgz.org>, Karen Etheridge <ether@cpan.org>
+Name: Test-Kwalitee
+Repository: https://github.com/karenetheridge/Test-Kwalitee.git
+Repository-Browse: https://github.com/karenetheridge/Test-Kwalitee

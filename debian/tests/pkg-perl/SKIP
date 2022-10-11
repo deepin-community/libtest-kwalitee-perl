@@ -1,0 +1,4 @@
+# the module is tested mostly on itself
+build-deps.d/smoke
+# 'use Test::Kwalitee' will test the whole distribution -> output
+use.t

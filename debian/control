@@ -1,0 +1,38 @@
+Source: libtest-kwalitee-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Peter Pentchev <roam@ringlet.net>,
+           Florian Schlichting <fsfs@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 11),
+               perl
+Build-Depends-Indep: libcpan-meta-check-perl (>= 0.011),
+                     libcpan-meta-requirements-perl,
+                     libmodule-cpants-analyse-perl (>= 0.92),
+                     libtest-deep-perl,
+                     libtest-pod-coverage-perl,
+                     libtest-pod-perl,
+                     libtest-simple-perl (>= 1.001010) | libtest-tester-perl (>= 0.108),
+                     libtest-warnings-perl
+Standards-Version: 4.3.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-kwalitee-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-kwalitee-perl.git
+Homepage: https://metacpan.org/release/Test-Kwalitee
+
+Package: libtest-kwalitee-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libmodule-cpants-analyse-perl (>= 0.92)
+Description: module to test the quality of a Perl module distribution
+ Test::Kwalitee is an automatically-measurable gauge of how good your software
+ is.  That's very different from quality, which a computer really can't
+ measure in a general sense. (If you can, you've solved a hard problem in
+ computer science.)
+ .
+ In the world of the CPAN, the CPANTS project (CPAN Testing Service; also a
+ funny acronym on its own) measures Kwalitee with several metrics. If you plan
+ to release a distribution to the CPAN -- or even within your own organization
+ -- testing its Kwalitee before creating a release can help you improve your
+ quality as well.
